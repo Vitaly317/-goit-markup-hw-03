@@ -31,12 +31,34 @@ body {
 /* Header + */
 .header {
   background: var(--header-footer-color);
+  justify-content: space-between;
+  
   font-size: 14px;
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
+  height: 80px;
 }
 
+.container {
+  max-width: 1200px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.col {
+  flex-direction: column;
+}
 
 .link{
   /* настледует цвет шрифта от родителя */
@@ -69,6 +91,9 @@ body {
 /* Main */
 .section-hero{
   background-color: var(--section-one-color);
+  flex-direction: column;
+  /* max-width: 1600px;  */
+  height: 600px;
 
 }
 .hero {
@@ -97,6 +122,8 @@ body {
   padding: 6px 22px;
   cursor:pointer;
 }
+
+
 
 .button:hover,
 .button:focus {
