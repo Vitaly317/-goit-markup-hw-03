@@ -12,13 +12,13 @@
   --footer-color-list: rgba(255, 255, 255, 0.6);
   --items-border: #EEEEEE;
 }
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 body {
   background-color: var(--body-color); 
   color: var(--primary-text-color);
@@ -31,42 +31,37 @@ body {
 /* Header + */
 .header {
   background: var(--header-footer-color);
-  justify-content: space-between;
-  
   font-size: 14px;
   font-weight: 500;
   line-height: 1.143;
   letter-spacing: 0.02em;
   height: 80px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
 }
 
 .container {
-  max-width: 1200px;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.flex {
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex ;
   justify-content: space-between;
-  align-items: center;
+  /* align-self: center; */
+}
+
+.nav {
+  display: flex;
+  width: 532px;
+  justify-content: space-between;
 }
 
 
-.col {
-  flex-direction: column;
-}
-
-.link{
-  /* настледует цвет шрифта от родителя */
+.link-logo{
   color: inherit;
-  /* Убрали подчёркивание нижнее */
   text-decoration: none;
-}
-.logo{
   font-family: Raleway, sans-serif;
   font-weight: 700; 
   font-size: 26px;
@@ -77,23 +72,64 @@ body {
 .accent-logo {
   color: var(--color-black);
 }
+.list {
+  list-style: none;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.link{
+  /* настледует цвет шрифта от родителя */
+  color: inherit;
+  /* Убрали подчёркивание нижнее */
+  text-decoration: none;
+}
+.nav .link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.acctive{
+  color: var(--accent-color);
+}
+.hero {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.hero .container  {
+  flex-direction: column;
+  align-items: center;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  outline: 2px solid blue;
+}
+
+
+
+.col {
+  flex-direction: column;
+}
+
 
 .link:hover,
 .link:focus{
-  color: var(--accent-color);
-}
-.acctive{
   color: var(--accent-color);
 }
 .contacts{
   color: var(--title-text-color);
 }
 /* Main */
-.section-hero{
+.section.hero{
   background-color: var(--section-one-color);
   flex-direction: column;
   /* max-width: 1600px;  */
   height: 600px;
+  outline: 2px solid tomato;
 
 }
 .hero {
@@ -108,9 +144,6 @@ body {
   padding-bottom: 280px; */
 }
 
-.list {
-  list-style: none;
-}
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -153,7 +186,7 @@ body {
   letter-spacing: 0.03em;
   font-weight: 700;
 }
-.section-what-we-do .title {
+.what-we-do .title {
 text-transform: uppercase;
 }
 .what-we-do,
