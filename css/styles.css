@@ -7,12 +7,12 @@
   --hero-color: #2F303A;
   --hero-text-color: #FFFFFF;
   --title-text-color: #757575;
-
   --accent-color: #2196F3;
   --what-we-do-color: #FFFFFF;
   --teams-color: #F5F4FA;
+  --card-bg-color: #FFFFFF;
   --footer-color: #2F303A;
-
+  --footer-accent-logo: #FFFFFF;
 
   --primary-text-color: #212121;
   
@@ -136,9 +136,7 @@ ul {
 
 .hero {
   margin-bottom: 30px;
-
   color: var(--hero-text-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -180,6 +178,23 @@ ul {
   font-weight: 700;
   margin-bottom: 10px;
 }
+ .img-card {
+   display: block;
+ }
+
+.card {
+  background-color: var(--card-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card .title {
+  margin-top: 30px;
+
+}
+
 
 .text{
   color: var(--title-text-color);
@@ -227,11 +242,26 @@ ul {
   background-color: var(--footer-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  color: var(--accent-color-second);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
 }
 
-.container-footer {
-  /* flex-direction: column; */
+.footer-accent-logo {
+ color: var(--footer-accent-logo  );
 }
+
+.adress {
+  font-style: normal;
+  padding-top: 20px;
+}
+
+.list {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 
 
 
