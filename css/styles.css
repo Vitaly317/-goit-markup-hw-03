@@ -13,7 +13,7 @@
   --card-bg-color: #FFFFFF;
   --footer-color: #2F303A;
   --footer-accent-logo: #FFFFFF;
-
+  --footer-list-color: rgba(255, 255, 255, 0.6);
   --primary-text-color: #212121;
   
   --accent-color-second: #ffffff;
@@ -258,8 +258,8 @@ ul {
   padding-top: 20px;
 }
 
-.list {
-  color: rgba(255, 255, 255, 0.6);
+.footer-list {
+  color: var(--footer-list-color);
 }
 
 
