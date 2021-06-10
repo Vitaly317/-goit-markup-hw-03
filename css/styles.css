@@ -192,9 +192,7 @@ ul {
 
 .card .title {
   margin-top: 30px;
-
 }
-
 
 .text{
   color: var(--title-text-color);
@@ -213,9 +211,6 @@ ul {
   letter-spacing: 0.03em;
 
 }
-/* .what-we-do .li:not(:last-child) {
-  margin-right: 30px;
-} */
 
 .what-we-do .title {
   text-transform: uppercase;
@@ -229,14 +224,6 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
-
-/* .container-hero,
-.container.what-we-do {
-  flex-direction: column;
-  /* align-items: center; */
-/* } */
-
 
 .footer {
   background-color: var(--footer-color);
@@ -262,15 +249,59 @@ ul {
   color: var(--footer-list-color);
 }
 
+.portfolio .items {
+  background: var(--body-color);
+  border: 1px solid var(--items-border);
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;    
+}
+.portfolio .title{
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio .text{
+  line-height: 1.87;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+}
+
+.list.buttons .but:not(:last-child) {
+  margin-right: 8px;
+}
+
+.list-cards .title {
+  margin-top: 20px;
+  padding: 0 24px;
+}
+.list-cards .text {
+  margin-bottom: 20px;
+  padding: 0 24px;
+}
+.list-cards {
+
+}
 
 
+/* :not(:last-child) */
 
+img {
+  outline: 2px solid red;
 
+}
 
+h3 {
+  outline: 2px solid blue;
+}
+.items {
+  outline: 2px solid green;
+}
 
-
-
-
+/* class="img-card" */
 
 
 
