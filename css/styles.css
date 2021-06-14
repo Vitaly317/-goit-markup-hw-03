@@ -168,7 +168,7 @@ ul {
   margin: auto;
 }
 .what-we-do .li:not(:last-child) {
-  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .title{
