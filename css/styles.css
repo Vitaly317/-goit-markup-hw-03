@@ -15,15 +15,12 @@
   --footer-accent-logo: #FFFFFF;
   --footer-list-color: rgba(255, 255, 255, 0.6);
   --primary-text-color: #212121;
-  
   --accent-color-second: #ffffff;
-  
   --section-one-color: #2F303A;
-  --body-color-second: #F5F4FA;
-  
   --footer-color-list: rgba(255, 255, 255, 0.6);
   --items-border: #EEEEEE;
   --list-cards-gap: 30px;
+  /* --body-color-second: #F5F4FA; */
 }
 
 body {
