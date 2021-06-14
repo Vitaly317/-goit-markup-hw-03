@@ -20,7 +20,6 @@
   
   --section-one-color: #2F303A;
   --body-color-second: #F5F4FA;
-  --color-black: #000000;
   
   --footer-color-list: rgba(255, 255, 255, 0.6);
   --items-border: #EEEEEE;
@@ -171,6 +170,9 @@ ul {
   letter-spacing: 0.06em;
   margin: auto;
 }
+.what-we-do .li:not(:last-child) {
+  margin-left: 30px;
+}
 
 .title{
   font-size: 14px;
@@ -178,6 +180,10 @@ ul {
   letter-spacing: 0.03em;
   font-weight: 700;
   /* margin-bottom: 10px; */
+}
+
+.what-we-do .title {
+  margin-bottom: 10px;
 }
  .img-card {
    display: block;
@@ -277,9 +283,7 @@ ul {
   max-width: 100%;
 }
 
-.items * {
-  outline: 1px solid red;
-}
+
 .portfolio .title{
   font-size: 18px;
   line-height: 2;
