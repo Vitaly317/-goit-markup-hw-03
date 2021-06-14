@@ -297,15 +297,3 @@ ul {
 .list.buttons .but:not(:last-child) {
   margin-right: 8px;
 }
-
-/* .list-cards .title {
-  /* margin-top: 20px; */
-  /* padding: 0 24px;
-}
-.list-cards .text { */
-  /* margin-bottom: 20px; */
-  /* padding: 0 24px;
-} */ */
-
-
-/* :not(:last-child) */
